@@ -1,0 +1,26 @@
+.work {
+    width: 250px;
+    background-color: #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+
+}
+
+.pic {
+    height: 300px;
+    width: 200px;
+    background-color: #606060;
+}
+.watch{
+    margin: 0 auto;
+    bottom: 50%;
+    background-color: #85ccde;
+    height: 50px;
+    width: 100px;
+
+}

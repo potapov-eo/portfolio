@@ -1,0 +1,23 @@
+.contactBlock{
+    height: 70vh;
+    background-color: #addfe5;
+}
+
+.contactContainer {
+    height: 100%;
+    background-color:  #addfe5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    background-color: darkgrey;
+}
+
+.butt {
+    background:  #606060;
+    width: 200px;
+    height: 100px;
+}

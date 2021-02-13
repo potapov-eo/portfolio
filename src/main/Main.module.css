@@ -1,11 +1,18 @@
 .mainBlock {
-height: 100vh;
-    background-color: #af8bd2;
+    height: 100vh;
+    background-color: #d4c0d9;
 }
-.text{
-    border: 2px solid black;
+
+
+.text {
+  /*  border: 2px solid black;*/
     width: 300px;
+    background-color: #d9d9d9;
 }
-.photo{
-    border: 2px solid black;
+
+.photo {
+   /* border: 2px solid black;*/
+    width: 300px;
+    height: 400px;
+    background-color: #d9d9d9;
 }

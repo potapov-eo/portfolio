@@ -1,0 +1,23 @@
+.freelancerBlock{
+    height: 40vh;
+    background-color: #a29786;
+}
+
+.freelancerContainer {
+    height: 100%;
+    background-color: #a29786;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    background-color: darkgrey;
+}
+
+.butt {
+    background:  #606060;
+    width: 200px;
+    height: 100px;
+}
