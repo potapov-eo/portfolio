@@ -9,16 +9,14 @@ function Contact() {
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
 
                 <h2 className={style.title}>Контакты</h2>
-                <form>
-                    <div>
-                        <input/>
-                    </div>
-                    <div>
-                        <input/>
-                    </div>
-                    <div>
+                <form className={style.contactsForm}>
+
+                        <input type={"text"}/>
+
+                        <input type={"text"}/>
+
                         <textarea> </textarea>
-                    </div>
+
                 </form>
                 <button className={style.butt}>Отправить</button>
 

@@ -1,15 +1,25 @@
-.contactBlock{
-    height: 70vh;
+.contactBlock {
+    padding: 30px 0px;
     background-color: #addfe5;
 }
 
 .contactContainer {
     height: 100%;
-    background-color:  #addfe5;
+    background-color: #addfe5;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.contactsForm {
+    width: 250px;
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -17,7 +27,7 @@
 }
 
 .butt {
-    background:  #606060;
+    background: #606060;
     width: 200px;
     height: 100px;
 }

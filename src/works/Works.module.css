@@ -1,6 +1,7 @@
 .worksBlock{
-    height: 100vh;
+
     background-color: #acdfe0;
+    padding: 30px 0px;
 }
 .worksContainer {
     flex-direction: column;

@@ -10,10 +10,10 @@ function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
-                    <Skill title={"js"} description={"ssssssssss dddddddddd ddddddddddd"}/>
+                    <Skill title={"js"} description={"ssssssssss dddddddddd dddddddssssssssss dddddddddd ddddddddddddddd"}/>
                     <Skill title={"react"} description={"ssssssssss dddddddddd ddddddddddd"}/>
                     <Skill title={"HTML"} description={"ssssssssss dddddddddd ddddddddddd"}/>
-
+                    <Skill title={"HTML"} description={"ssssssssss dddddddddd ddddddddddd"}/>
                 </div>
             </div>
         </div>
