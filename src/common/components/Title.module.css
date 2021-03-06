@@ -1,0 +1,26 @@
+.title {
+    font-family: oswald, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+    color: #22cd6f;
+    position: relative;
+}
+.title h2{
+    margin-block-start: 20px;
+    margin-block-end: 40px;
+}
+
+
+.title::before {
+    content: "";
+    position: absolute;
+    background: #0b6934;
+    width: 55px;
+    height: 2px;
+    bottom:20px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

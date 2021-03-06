@@ -1,11 +1,10 @@
 .footerBlock {
     height: 100%;
-    background-color: #e3b7ee;
+    background-color: black;
 }
 
 .footerContainer {
     height: 100%;
-    background-color: #e3b7ee;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
