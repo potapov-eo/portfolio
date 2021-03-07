@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Main.module.css';
 import styleContainer from "../common/syles/Container.module.css"
-
+import me from "../../src/assets/image/me.png"
 function Main() {
     return (
         <div className={style.mainBlock}>
@@ -11,7 +11,9 @@ function Main() {
                     <h1>Potapov Evgeny</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={style.photo}> photo</div>
+                <img className={style.photo} src={me}
+                     alt="MDN"/>
+               {/* <div className={style.photo}> photo</div>*/}
             </div>
         </div>
     );

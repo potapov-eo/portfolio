@@ -3,16 +3,24 @@ import style from './Works.module.css';
 import styleContainer from "../common/syles/Container.module.css";
 import Work from "./work/Work";
 import Title from "../common/components/Title";
-
+import CardQuestionsImage from "../../src/assets/image/CardsQuestions.PNG"
+import ToDoImage from "../../src/assets/image/ToDo.PNG"
 
 function Works() {
+    const cardQuestion = {
+       backgroundImage: `url(${CardQuestionsImage})`,
+    };
+    const toDo = {
+        backgroundImage: `url(${ToDoImage})`,
+    };
     return (
+
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <Title title={"Works"}/>
                 <div className={style.works}>
-                    <Work title={"PORTFOLIO"} description={"ssssssssss dddddddddd ddddddddddd"}/>
-                    <Work title={"PORTFOLIO2"} description={"ssssssssss dddddddddd ddddddddddd"}/>
+                    <Work style={cardQuestion} title={"Cards Questions"} description={"ssssssssss dddddddddd ddddddddddd"}/>
+                    <Work style={toDo} title={"ToDo"} description={"ssssssssss dddddddddd ddddddddddd"}/>
                 </div>
             </div>
         </div>

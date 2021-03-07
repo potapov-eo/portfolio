@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div className={style.contactBlock}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
-                <Title title={"Контакты"}/>
+                <Title title={"Contacts"}/>
                 <form className={style.contactsForm}>
 
                     <input type={"text"}/>

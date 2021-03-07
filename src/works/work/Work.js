@@ -5,12 +5,12 @@ import style from './Work.module.css';
 function Work(props) {
     return (
         <div className={style.work}>
-            <div className={style.imgContainer}>
+            <div className={style.imgContainer} style={props.style}>
 
-            <a className={style.watch}> смотреть </a>
+            <button className={style.watch}> смотреть </button>
             </div>
-            <h2>{props.title}</h2>
-            <span className={style.description}>{props.description}</span>
+            <h4>{props.title}</h4>
+            <p>{props.description}</p>
 
         </div>
     );
