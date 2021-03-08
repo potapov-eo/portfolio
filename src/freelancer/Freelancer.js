@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Freelancer.Module.css';
+import style from './Freelancer.Module.scss';
 import styleContainer from "../common/syles/Container.module.css";
 
 

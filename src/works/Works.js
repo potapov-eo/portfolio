@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Works.module.css';
+import style from './Works.module.scss';
 import styleContainer from "../common/syles/Container.module.css";
 import Work from "./work/Work";
 import Title from "../common/components/Title";

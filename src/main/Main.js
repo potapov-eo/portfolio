@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Main.module.css';
+import style from './Main.module.scss';
 import styleContainer from "../common/syles/Container.module.css"
 import me from "../../src/assets/image/me.png"
 function Main() {
@@ -7,14 +7,15 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.mainContainer}`}>
                 <div className={style.text}>
-                    <span>Hi There</span>
+                    <p>Hi There</p>
                     <h1>Potapov Evgeny</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <img className={style.photo} src={me}
+                <div className={style.photoContainer}>
+                <img  className={style.photo} src={me}
                      alt="MDN"/>
-               {/* <div className={style.photo}> photo</div>*/}
-            </div>
+                </div>
+                 </div>
         </div>
     );
 }

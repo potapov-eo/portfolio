@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Footer.Module.css';
+import style from './Footer.Module.scss';
 import styleContainer from "../common/syles/Container.module.css";
 
 
@@ -20,7 +20,7 @@ function Footer() {
                         <div className={style.network}>7</div>
                     </div>
 
-                <p className={style.fut}>© 2019 beingeorge, All Rights Reserved.</p>
+                <p className={style.futText}>© 2019 beingeorge, All Rights Reserved.</p>
 
             </div>
         </div>

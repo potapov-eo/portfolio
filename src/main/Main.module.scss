@@ -1,0 +1,43 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: #15191a;
+    display: flex;
+    align-items:center;
+    .mainContainer {
+        justify-content: space-evenly !important;
+        .text {
+            font-size: 24px;
+            font-family: oswald, sans-serif;
+            width: 300px;
+            color: #22cd6f;
+             p {
+                color: #999;
+            }
+        }
+        .photoContainer {
+            width: 500px;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: "";
+                background-color: black;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0.2;
+            }
+            .photo{
+                width: 100%
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+

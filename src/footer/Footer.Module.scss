@@ -1,0 +1,39 @@
+.footerBlock {
+    height: 100%;
+    background-color: black;
+    .footerContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .title {
+            background-color: darkgrey;
+        }
+        .networkBlock{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            .network{
+                background-color: #5d5d5d;
+                width: 50px;
+                height: 50px;
+            }
+            .network1{
+                background-color: #fffdfd;
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .futText {
+            background-color: #cbbaba;
+        }
+    }
+}
+
+
+
+
+
+

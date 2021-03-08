@@ -1,0 +1,31 @@
+.contactBlock {
+  padding: 30px 0px;
+  background-color: #15191a;
+
+  .contactContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+      .contactsForm {
+          width: 100%;
+          max-width: 350px;
+          height: 100px;
+          border: 1px solid;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 20px;
+      }
+      .showBut {
+          background: #606060;
+          width: 200px;
+          height: 100px;
+      }
+  }
+}
+
+
+
+
