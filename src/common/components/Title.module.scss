@@ -1,16 +1,13 @@
 @import "../../common/syles/sass/variables.scss";
-
+@import "../../common/syles/sass/mixins";
 
 .title {
-    font-family: oswald, sans-serif;
-    font-size: 32px;
-    text-transform: uppercase;
+    @include TitleItemText();
     margin-bottom: 0;
     margin-top: 0;
     display: block;
-    color: $primaryColor;
     position: relative;
-    .title h2{
+     h2{
         margin-block-start: 20px;
         margin-block-end: 40px;
     }

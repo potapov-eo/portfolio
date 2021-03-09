@@ -1,4 +1,5 @@
 @import "../common/syles/sass/variables.scss";
+@import "../common/syles/sass/mixins";
 
 .mainBlock {
     min-height: 100vh;
@@ -8,10 +9,7 @@
     .mainContainer {
         justify-content: space-evenly !important;
         .text {
-            font-size: 24px;
-            font-family:$TitleFontFamily;
-            width: 300px;
-            color: $primaryColor;
+            @include text($TitleFontFamily, 24px, 300px, $primaryColor, 1);
              p {
                 color: $textColor;
             }
@@ -20,14 +18,7 @@
             width: 500px;
             position: relative;
             &::before{
-                position: absolute;
-                content: "";
-                background-color: black;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                opacity: 0.2;
+                @include blackout(0.2)
             }
             .photo{
                 width: 100%

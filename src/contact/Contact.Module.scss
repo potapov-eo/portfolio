@@ -23,10 +23,10 @@
     }
 
     .showBut {
-      background: $bgItemColor;
+      background:$primaryColor ;
       width: 150px;
       height: 75px;
-      color: $primaryColor;
+      color:$bgItemColor ;
       font-size: 20px;
       font-weight: 600;
       display: block;

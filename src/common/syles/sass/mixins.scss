@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+@mixin text($fontFamily,$fontSize,$fontWeight,$color,$lineHeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+  line-height:$lineHeight
+}
+@mixin textItem() {
+  color: $textColor;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family:$TextFontFamily;
+}
+@mixin TitleItem() {
+  color: $primaryColor;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  font-family: oswald, sans-serif;
+}
+@mixin TitleItemText() {
+  color: $primaryColor;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+}
+
+@mixin blackout($opacity) {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity:$opacity;
+}

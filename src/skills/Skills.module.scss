@@ -1,16 +1,20 @@
+@import "../common/syles/sass/variables.scss";
+
+
 .skillsBlock {
-    background-color: black;
-    .skillsContainer {
-        flex-direction: column;
-        justify-content: flex-start;
-        .skills {
-            border: 1px solid;
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
+  background-color: $bgSecondColor;
+
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
     }
+  }
 }
 
 

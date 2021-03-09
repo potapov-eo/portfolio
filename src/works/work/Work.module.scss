@@ -1,4 +1,5 @@
 @import "../../common/syles/sass/variables.scss";
+@import "../../common/syles/sass/mixins";
 
 .work {
   width: 450px;
@@ -13,32 +14,17 @@
   }
 
   h4 {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: $primaryColor;
+    @include TitleItem();
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: oswald, sans-serif;
-    font-weight: 600;
-    line-height: 1.2;
-    box-sizing: border-box;
-    display: block;
   }
 
   p {
-    color: $textColor;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 0;
+    @include textItem();
     margin-top: 0;
     display: block;
     margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    line-height: 27px;
-    font-family: rubik, sans-serif;
-  }
+     }
 
   .imgContainer {
     background-color: $bgColor;
@@ -55,14 +41,7 @@
     }
 
     &::before {
-      position: absolute;
-      content: "";
-      background-color: black;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      opacity: 0.3;
+      @include blackout(0.3)
     }
 
     .watch {

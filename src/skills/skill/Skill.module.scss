@@ -1,8 +1,8 @@
 @import "../../common/syles/sass/variables.scss";
-
+@import "../../common/syles/sass/mixins";
 .skill {
   min-height: 200px;
-  width: 250px;
+  width: 250px     ;
   color: $textColor;
   background-color: $bgItemColor;
   display: flex;
@@ -20,13 +20,7 @@
   }
 
   .description {
-    color: $textColor;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 400;
-    display: block;
-    line-height: 27px;
-    font-family:$TextFontFamily;
+   @include textItem()
   }
 }
 
