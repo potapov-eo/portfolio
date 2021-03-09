@@ -1,5 +1,7 @@
+@import "../common/syles/sass/variables.scss";
+
 .worksBlock{
-    background-color: #15191a;
+    background-color: $bgColor;
     .worksContainer {
         flex-direction: column;
         justify-content: flex-start;

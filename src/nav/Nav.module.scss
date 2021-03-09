@@ -1,12 +1,14 @@
+@import "../common/syles/sass/variables.scss";
+
 .nav {
-  border: 2px solid black;
   display: flex;
   width: 350px;
   justify-content: space-around;
+
   a {
     font-family: oswald, sans-serif;
     font-weight: 300;
     font-size: 24px;
-    color: #22cd6f;
+    color: $primaryColor;
   }
 }

@@ -1,3 +1,6 @@
+@import "../../common/syles/sass/variables.scss";
+
+
 .title {
     font-family: oswald, sans-serif;
     font-size: 32px;
@@ -5,7 +8,7 @@
     margin-bottom: 0;
     margin-top: 0;
     display: block;
-    color: #22cd6f;
+    color: $primaryColor;
     position: relative;
     .title h2{
         margin-block-start: 20px;
@@ -14,7 +17,7 @@
     &::before {
         content: "";
         position: absolute;
-        background: #0b6934;
+        background:  $primaryColor;
         width: 55px;
         height: 2px;
         bottom:20px;

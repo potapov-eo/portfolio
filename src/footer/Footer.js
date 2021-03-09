@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Footer.Module.scss';
 import styleContainer from "../common/syles/Container.module.css";
+import TitleItem from "../common/components/TitleItem/TitleItem";
 
 
 function Footer() {
@@ -8,7 +9,8 @@ function Footer() {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
 
-                <h2 className={style.title}>POTAPOV EVGENY</h2>
+
+                < TitleItem title={"Potapov Evgeny"}/>
 
                     <div className={style.networkBlock}>
                         <div className={style.network}>1</div>

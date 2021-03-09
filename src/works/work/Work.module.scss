@@ -1,6 +1,8 @@
+@import "../../common/syles/sass/variables.scss";
+
 .work {
   width: 450px;
-  background-color: #212529;
+  background-color: $bgItemColor;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +15,7 @@
   h4 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #22cd6f;
+    color: $primaryColor;
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: oswald, sans-serif;
@@ -24,7 +26,7 @@
   }
 
   p {
-    color: #999;
+    color: $textColor;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 400;
@@ -39,7 +41,7 @@
   }
 
   .imgContainer {
-    background-color: #212529;
+    background-color: $bgColor;
     height: 350px;
     width: 100%;
     display: flex;
@@ -66,7 +68,7 @@
     .watch {
       margin: 0 auto;
       bottom: 50%;
-      background-color: #22cd6f;
+      background-color: $primaryColor;
       height: 30px;
       width: 100px;
       color: white;
@@ -77,16 +79,6 @@
   }
 }
 
-/*
-@media screen and ( max-width: 600px ) {
-    .imgContainer {
-        height: 200px;
-    }
-    .work {
-        width: 250px;
-    }
-}
-*/
 
 
 

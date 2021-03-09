@@ -1,17 +1,33 @@
+@import "../../common/syles/sass/variables.scss";
+
 .skill {
-    width: 250px;
-    background-color: #cdcdcd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid;
-    .icon {
-        height: 60px;
-        width: 60px;
-        background-color: #606060;
-    }
+  min-height: 200px;
+  width: 250px;
+  color: $textColor;
+  background-color: $bgItemColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 2px;
+
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-color: #606060;
+  }
+
+  .description {
+    color: $textColor;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    line-height: 27px;
+    font-family:$TextFontFamily;
+  }
 }
 
 

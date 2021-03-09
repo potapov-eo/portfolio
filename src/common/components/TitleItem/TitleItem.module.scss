@@ -1,0 +1,12 @@
+@import "../../../common/syles/sass/variables.scss";
+
+.titleItem {
+  font-size: 20px;
+  color: $primaryColor;
+   font-family: oswald, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 0;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Work.module.scss';
+import TitleItem from "../../common/components/TitleItem/TitleItem";
 
 
 function Work(props) {
@@ -9,7 +10,7 @@ function Work(props) {
 
             <button className={style.watch}> смотреть </button>
             </div>
-            <h4>{props.title}</h4>
+            <TitleItem title={props.title}/>
             <p>{props.description}</p>
 
         </div>
