@@ -14,13 +14,13 @@
   }
 
   h4 {
-    @include TitleItem();
+    @extend TitleItem;
     margin-bottom: 20px;
     margin-top: 20px;
   }
 
   p {
-    @include textItem();
+    @extend textItem;
     margin-top: 0;
     display: block;
     margin-block-end: 20px;

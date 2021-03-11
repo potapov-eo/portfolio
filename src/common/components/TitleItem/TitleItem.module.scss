@@ -2,7 +2,7 @@
 @import "../../../common/syles/sass/mixins";
 
 .titleItem {
-  @include TitleItem();
+  @extend TitleItem;
   box-sizing: border-box;
   display: block;
   margin-bottom: 0;

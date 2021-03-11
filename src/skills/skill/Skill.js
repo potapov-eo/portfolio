@@ -6,9 +6,10 @@ import TitleItem from "../../common/components/TitleItem/TitleItem";
 function Skill(props) {
     return (
         <div className={style.skill}>
-            <div className={style.icon}></div>
-           <TitleItem title={props.title}/>
-            <span className={style.description}>{props.description}</span>
+            {props.icon}
+            <TitleItem title={props.title}/>
+            {/*<span className={style.description}>{props.description}</span>*/}
+
 
         </div>
     );

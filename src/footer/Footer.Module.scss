@@ -32,7 +32,7 @@
     }
 
     .futText {
-      @include textItem();
+      @extend textItem;
       display: block;
 
     }

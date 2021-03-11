@@ -7,21 +7,23 @@
   color: $color;
   line-height:$lineHeight
 }
-@mixin textItem() {
+textItem {
   color: $textColor;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   font-family:$TextFontFamily;
 }
-@mixin TitleItem() {
+
+TitleItem {
   color: $primaryColor;
   font-size: 20px;
   font-weight: 600;
   line-height: 1;
   font-family: oswald, sans-serif;
 }
-@mixin TitleItemText() {
+
+TitleText {
   color: $primaryColor;
   font-size: 32px;
   font-weight: 600;

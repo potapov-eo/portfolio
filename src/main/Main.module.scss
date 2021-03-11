@@ -2,30 +2,36 @@
 @import "../common/syles/sass/mixins";
 
 .mainBlock {
-    min-height: 100vh;
-    background-color: $bgColor;
-    display: flex;
-    align-items:center;
-    .mainContainer {
-        justify-content: space-evenly !important;
-        .text {
-            @include text($TitleFontFamily, 24px, 300px, $primaryColor, 1);
-             p {
-                color: $textColor;
-            }
-        }
-        .photoContainer {
-            width: 500px;
-            position: relative;
-            &::before{
-                @include blackout(0.2)
-            }
-            .photo{
-                width: 100%
-            }
-        }
+  min-height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
 
+  .mainContainer {
+    justify-content: space-evenly !important;
+
+    .text {
+      @include text($TitleFontFamily, 24px, 300px, $primaryColor, 1);
+
+      p {
+        color: $textColor;
+      }
     }
+
+    .photoContainer {
+      width: 500px;
+      position: relative;
+
+      &::before {
+        @include blackout(0.2)
+      }
+
+      .photo {
+        width: 100%
+      }
+    }
+
+  }
 }
 
 

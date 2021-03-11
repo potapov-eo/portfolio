@@ -5,8 +5,11 @@ import Nav from '../nav/Nav';
 
 function Header() {
     return (
+        <div>
+            <div className={style.headerBG} ></div>
         <div className={style.header}>
             <Nav/>
+        </div>
         </div>
     );
 }

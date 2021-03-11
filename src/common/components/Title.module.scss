@@ -2,7 +2,7 @@
 @import "../../common/syles/sass/mixins";
 
 .title {
-    @include TitleItemText();
+    @extend TitleText;
     margin-bottom: 0;
     margin-top: 0;
     display: block;
