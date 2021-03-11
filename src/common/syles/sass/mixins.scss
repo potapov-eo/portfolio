@@ -30,6 +30,18 @@ TitleText {
   font-family: oswald, sans-serif;
   text-transform: uppercase;
 }
+myButton {
+  background:$primaryColor ;
+  width: 150px;
+  height: 75px;
+  color:$bgItemColor ;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+  font-family: rubik, sans-serif;
+
+}
 
 @mixin blackout($opacity) {
   position: absolute;

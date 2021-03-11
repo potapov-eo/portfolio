@@ -45,14 +45,7 @@
     }
 
     .watch {
-      margin: 0 auto;
-      bottom: 50%;
-      background-color: $primaryColor;
-      height: 30px;
-      width: 100px;
-      color: white;
-      border-radius: 10px;
-      font-family: rubik, sans-serif;
+      @extend myButton
 
     }
   }
