@@ -6,21 +6,25 @@
   background-color: $bgColor;
 
   .contactContainer {
+    @extend container;
     height: 100%;
+    @include flex(column, space-around, center, wrap);
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 
     .contactsForm {
       width: 100%;
       max-width: 350px;
       height: 100px;
-      border: 1px solid;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      @include flex(column, space-between, space-between, wrap);
       margin-bottom: 20px;
+
+      input, textarea {
+        background: $bgItemColor;
+        border: 1px $primaryColor;
+        color: $primaryColor;
+        font-size: 18px;
+      }
+
     }
 
     .showBut {

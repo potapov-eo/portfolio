@@ -8,7 +8,8 @@
   align-items: center;
 
   .mainContainer {
-    justify-content: space-evenly !important;
+    @extend container;
+    @include flex(row, space-around, center, wrap);
 
     .text {
       @include text($TitleFontFamily, 24px, 300px, $primaryColor, 1);

@@ -7,6 +7,23 @@
   color: $color;
   line-height:$lineHeight
 }
+@mixin blackout($opacity) {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity:$opacity;
+}
+@mixin flex($direction,$justifyContent,$alignItems,$wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap;
+}
 textItem {
   color: $textColor;
   font-size: 18px;
@@ -43,13 +60,9 @@ myButton {
 
 }
 
-@mixin blackout($opacity) {
-  position: absolute;
-  content: "";
-  background-color: black;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity:$opacity;
-}
+  container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+

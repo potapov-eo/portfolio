@@ -1,19 +1,19 @@
 @import "../common/syles/sass/variables.scss";
+@import "../common/syles/sass/mixins";
 
-.worksBlock{
-    background-color: $bgColor;
-    .worksContainer {
-        flex-direction: column;
-        justify-content: flex-start;
-        flex-wrap:  nowrap;
-        padding-bottom: 20px;
-        .works {
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
+.worksBlock {
+  background-color: $bgColor;
+
+  .worksContainer {
+    @extend container;
+    @include flex(column, center, center, wrap);
+    padding-bottom: 20px;
+
+    .works {
+      @include flex(column, space-evenly, center, wrap);
+      width: 100%;
     }
+  }
 }
 
 

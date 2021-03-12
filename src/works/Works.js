@@ -16,7 +16,7 @@ function Works() {
     return (
 
         <div className={style.worksBlock}>
-            <div className={`${styleContainer.container} ${style.worksContainer}`}>
+            <div className={style.worksContainer}>
                 <Title title={"Works"}/>
                 <div className={style.works}>
                     <Work style={cardQuestion} title={"Cards Questions"} description={"ssssssssss dddddddddd ddddddddddd"}/>

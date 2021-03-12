@@ -1,17 +1,17 @@
 import React from 'react'
 import style from './Contact.Module.scss';
-import styleContainer from "../common/syles/Container.module.css";
 import Title from "../common/components/Title";
 
 
 function Contact() {
     return (
         <div className={style.contactBlock}>
-            <div className={`${styleContainer.container} ${style.contactContainer}`}>
+            <div className={style.contactContainer}>
                 <Title title={"Contacts"}/>
                 <form className={style.contactsForm}>
 
-                    <input type={"text"}/>
+                    <input placeholder={"your name"}
+                           type={"text"}/>
 
                     <input type={"text"}/>
 

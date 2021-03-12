@@ -1,18 +1,19 @@
 @import "../common/syles/sass/variables.scss";
+@import "../common/syles/sass/mixins.scss";
 
 
 .skillsBlock {
   background-color: $bgSecondColor;
 
   .skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    @extend container;
+    padding-bottom: 40px;
+    @include flex(column, flex-start, center, wrap);
 
     .skills {
+      @include flex(row, space-around, center, wrap);
       width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+
     }
   }
 }
