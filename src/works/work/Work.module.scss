@@ -40,11 +40,12 @@
       @include blackout(0.3)
     }
 
-    .watch {
-      @extend myButton
 
-    }
   }
+}
+.button{
+  background:$bgItemColor ;
+  color: aqua;
 }
 
 

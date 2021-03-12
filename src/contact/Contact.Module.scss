@@ -1,6 +1,6 @@
 @import "../common/syles/sass/variables.scss";
 @import "../common/syles/sass/mixins";
-
+@import "../common/components/button/Button.module";
 .contactBlock {
   padding: 30px 0px;
   background-color: $bgColor;
@@ -28,7 +28,8 @@
     }
 
     .showBut {
-      @extend myButton
+      @extend .btn;
+
 
     }
   }

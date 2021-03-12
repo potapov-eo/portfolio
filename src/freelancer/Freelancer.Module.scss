@@ -12,10 +12,13 @@
     height: 100%;
     @include flex(column, space-around, center, wrap);
 
+    h2 {
+      @extend TitleItem;
+      color: $textColor ;
+      font-size: 1.5em;
+    }
   }
-  .butt {
-    @extend myButton
-  }
+
 }
 
 
