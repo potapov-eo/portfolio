@@ -1,6 +1,7 @@
 @import "../common/syles/sass/variables.scss";
 @import "../common/syles/sass/mixins";
 @import "../common/components/button/Button.module";
+
 .contactBlock {
   padding: 30px 0px;
   background-color: $bgColor;
@@ -11,26 +12,39 @@
     @include flex(column, space-around, center, wrap);
     display: flex;
 
+    padding-bottom:40px;
+
     .contactsForm {
+
       width: 100%;
       max-width: 350px;
-      height: 100px;
+      min-height: 150px;
       @include flex(column, space-between, space-between, wrap);
       margin-bottom: 20px;
 
-      input, textarea {
+      .formArea, .messageArea {
         background: $bgItemColor;
-        border: 1px $primaryColor;
-        color: $primaryColor;
+        border: 1px solid $primaryColor;
+        box-sizing: border-box;
+        color: $textColor;
         font-size: 18px;
+        outline: none;
+        margin-bottom: 1.2rem;
+        &:-webkit-autofill{
+          border: 1px solid $primaryColor;
+          -webkit-text-fill-color: $textColor;
+          -webkit-box-shadow: 0 0 0 1000px #212529 inset;
+          transition: background-color 5000s ease-in-out 0s;
+          &:focus{
+            border: 2px solid $bgItemColor;
+          }
+        }
       }
 
     }
 
     .showBut {
       @extend .btn;
-
-
     }
   }
 }

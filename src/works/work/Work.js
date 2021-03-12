@@ -8,8 +8,7 @@ function Work(props) {
     return (
         <div className={style.work}>
             <div className={style.imgContainer} style={props.style}>
-
-            <Button className={style.button} text={"смотреть"}/>
+            <Button href={props.href} className={style.button} text={"смотреть"}/>
             </div>
             <TitleItem title={props.title}/>
             <p>{props.description}</p>

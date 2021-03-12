@@ -5,24 +5,35 @@ import Title from "../common/components/Title";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons'
 import {faFileCode} from '@fortawesome/free-solid-svg-icons'
-
+import Fade from 'react-reveal/Fade';
+import Tilt from "react-tilt";
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
-            <div className={style.skillsContainer}>
-                <Title title={"Skills"}/>
-                <div className={style.skills}>
-                    <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS"}
-                           description={"ssssssssss dddddddddd ddddddddddddddd"}/>
-                    <Skill icon={<FontAwesomeIcon icon={faReact} size="5x" color=" #22cd6f"/>} title={"REACT"}
-                           description={"ssssssssss dddddddddd ddddddddddd"}/>
-                    <Skill icon={<FontAwesomeIcon icon={faHtml5} size="5x" color=" #22cd6f"/>} title={"HTML"}
-                           description={"ssssssssss dddddddddd ddddddddddd"}/>
-                    <Skill icon={<FontAwesomeIcon icon={faFileCode} size="5x" color=" #22cd6f"/>} title={"CSS"}
-                           description={"ssssssssss dddddddddd ddddddddddd"}/>
+        <div id="skills" className={style.skillsBlock}>
+            <Fade right>
+                <div className={style.skillsContainer}>
+                    <Title title={"Skills"}/>
+                    <div className={style.skills}>
+                        <Tilt className="Tilt" options={{max: 35,}}>
+                            <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS"}
+                                   description={"ssssssssss dddddddddd ddddddddddddddd"}/>
+                        </Tilt>
+                        <Tilt className="Tilt" options={{max: 35,}}>
+                            <Skill icon={<FontAwesomeIcon icon={faReact} size="5x" color=" #22cd6f"/>} title={"REACT"}
+                                   description={"ssssssssss dddddddddd ddddddddddd"}/>
+                        </Tilt>
+                        <Tilt className="Tilt" options={{max: 35,}}>
+                            <Skill icon={<FontAwesomeIcon icon={faHtml5} size="5x" color=" #22cd6f"/>} title={"HTML"}
+                                   description={"ssssssssss dddddddddd ddddddddddd"}/>
+                        </Tilt>
+                        <Tilt className="Tilt" options={{max: 35,}}>
+                            <Skill icon={<FontAwesomeIcon icon={faFileCode} size="5x" color=" #22cd6f"/>} title={"CSS"}
+                                   description={"ssssssssss dddddddddd ddddddddddd"}/>
+                        </Tilt>
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
-import './App.css';
+
+import style from './App.scss';
 import Header from './header/Header';
 import Main from './main/Main';
 import Skills from "./skills/Skills";
@@ -8,9 +9,10 @@ import Freelancer from "./freelancer/Freelancer";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 
+
 function App() {
     return (
-        <div className="App">
+        <div className={style.App} >
             <Header/>
             <Main/>
             <Skills/>

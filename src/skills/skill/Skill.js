@@ -8,9 +8,6 @@ function Skill(props) {
         <div className={style.skill}>
             {props.icon}
             <TitleItem title={props.title}/>
-            {/*<span className={style.description}>{props.description}</span>*/}
-
-
         </div>
     );
 }

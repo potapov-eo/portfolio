@@ -41,7 +41,7 @@ TitleItem {
 }
 
 TitleText {
-  color: $primaryColor;
+  color: $textColor;
   font-size: 32px;
   font-weight: 600;
   font-family: oswald, sans-serif;
@@ -63,6 +63,7 @@ myButton {
   container {
     width: 80%;
     margin: 0 auto;
+
   }
 
 

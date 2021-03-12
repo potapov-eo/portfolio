@@ -7,6 +7,15 @@
   justify-content: space-around;
 
   a {
-    @extend TitleItem
+    @extend TitleItem;
+
+    &:hover {
+      cursor: pointer;
+      color: $textColor
+    }
+  }
+
+  .active {
+    color: $textColor;
   }
 }

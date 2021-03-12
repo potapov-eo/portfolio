@@ -6,6 +6,18 @@
   background-color: $bgColor;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
+
 
   .mainContainer {
     @extend container;
@@ -14,27 +26,43 @@
     .text {
       @include text($TitleFontFamily, 24px, 300px, $primaryColor, 1);
 
-      p {
+      p, span {
         color: $textColor;
+
+      }
+      span{
+        margin-bottom: 30px;
+        font-size: 36px;
       }
     }
 
     .photoContainer {
-      width: 500px;
+      width: 400px;
       position: relative;
 
+
       &::before {
-        @include blackout(0.2)
+        @include blackout(0.2);
       }
 
       .photo {
-        width: 100%
+        width: 100%;
+        /* &:before {
+           content: "";
+           position: absolute;
+           height: 110%;
+           width: 105%;
+           border: 5px solid $primaryColor;
+           left: 15px;
+           top: -15px;
+           z-index: 1;
+         }*/
       }
+
     }
 
   }
 }
-
 
 
 

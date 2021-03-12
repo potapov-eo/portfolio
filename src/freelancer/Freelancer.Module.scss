@@ -11,7 +11,7 @@
     @extend container;
     height: 100%;
     @include flex(column, space-around, center, wrap);
-
+    padding-bottom: 20px;
     h2 {
       @extend TitleItem;
       color: $textColor ;

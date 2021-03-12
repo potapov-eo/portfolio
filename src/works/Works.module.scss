@@ -7,7 +7,7 @@
   .worksContainer {
     @extend container;
     @include flex(column, center, center, wrap);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 
     .works {
       @include flex(column, space-evenly, center, wrap);

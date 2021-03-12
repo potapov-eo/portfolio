@@ -5,10 +5,13 @@
   height: 100%;
   background-color: $bgSecondColor;
 
+
   .footerContainer {
     @extend container;
     @include flex(column, space-around, center, wrap);
     height: 100%;
+    padding-top: 20px;
+    padding-bottom:20px;
 
     .networkBlock {
       @include flex(row, center, center, wrap);
@@ -25,7 +28,6 @@
     }
   }
 }
-
 
 
 
