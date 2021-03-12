@@ -35,7 +35,7 @@ function Nav() {
                 to="contacts"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-250}
                 duration={500}
             >Contacts</Link>
 
