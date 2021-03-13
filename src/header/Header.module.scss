@@ -7,9 +7,12 @@
   opacity: 0.8;
   width: 100%;
   top:0;
-  height: 80px;
+  min-height: 80px;
   background-color: $bgSecondColor;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  @media screen and (max-width: 400px){
+    background-color: transparent;
+  }
 }

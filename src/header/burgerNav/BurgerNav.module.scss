@@ -1,0 +1,44 @@
+@import "../../common/syles/sass/variables";
+@import "../../common/syles/sass/mixins";
+
+.BurgerNav {
+  width: 100%;
+
+
+  .burgerNavItems {
+    @include flex(column, space-between, center, nowrap);
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: $bgColor;
+    a {
+      @extend TitleItem;
+      margin-bottom: 5px;
+
+      &:hover {
+        cursor: pointer;
+        color: $textColor
+      }
+    }
+
+    .active {
+      color: $textColor;
+    }
+  }
+
+  .burgerButton {
+    background-color: $primaryColor;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    padding: 5px;
+    @extend textItem;
+    color: $bgColor;
+    font-weight: 600;
+  }
+
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+}

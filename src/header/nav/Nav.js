@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Nav.module.scss';
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Link} from "react-scroll";
 
 function Nav() {
     return (
@@ -27,7 +27,7 @@ function Nav() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-65}
                 duration={500}
             >Projects</Link>
             <Link
