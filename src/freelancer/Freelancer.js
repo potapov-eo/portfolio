@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './Freelancer.Module.scss';
-import Button from "../common/components/button/Button";
 import Fade from 'react-reveal/Fade';
 import {Link} from "react-scroll";
 
@@ -9,9 +8,8 @@ function Freelancer() {
         <div className={style.freelancerBlock}>
             <Fade right>
                 <div className={style.freelancerContainer}>
-                    < h2>РАССМАТРИВАЮ ВАРИАНТ УДАОЕННОЙ РАБОТЫ</h2>
-                   {/* <Button target="_self" href={"#contacts"} text={"Нанять меня"}/>*/}
-                    <div className={style.btn} > <Link
+                    < h2>РАССМАТРИВАЮ ВАРИАНТ УДАЛЕННОЙ РАБОТЫ</h2>
+                    <div className={style.btn}><Link
                         activeClass={style.active}
                         to="contacts"
                         spy={true}

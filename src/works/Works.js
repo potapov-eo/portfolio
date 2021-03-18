@@ -5,7 +5,6 @@ import Title from "../common/components/Title";
 import CardQuestionsImage from "../../src/assets/image/CardsQuestions.PNG"
 import ToDoImage from "../../src/assets/image/ToDo.PNG"
 import Fade from 'react-reveal/Fade';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 function Works() {
     const cardQuestion = {
@@ -21,7 +20,8 @@ function Works() {
                 <div className={style.worksContainer}>
                     <Title title={"Projects"}/>
                     <div className={style.works}>
-                        <Work href={"https://potapov-eo.github.io/friday-day/#/packs"} style={cardQuestion} title={"Cards Questions"}
+                        <Work href={"https://potapov-eo.github.io/friday-day/"} style={cardQuestion}
+                              title={"Cards Questions"}
                               description={"ssssssssss dddddddddd ddddddddddd"}/>
                         <Work style={toDo} title={"ToDo"} description={"ssssssssss dddddddddd ddddddddddd"}/>
                     </div>
