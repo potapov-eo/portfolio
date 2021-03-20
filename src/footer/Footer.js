@@ -15,9 +15,9 @@ function Footer() {
                 <div className={style.networkBlock}>
                   <a href=""> <FontAwesomeIcon icon={faInstagram} size="2x" color=" #22cd6f" className={style.FontAwesomeIcon}/></a>
                     <a href=""> <FontAwesomeIcon icon={faVk} size="2x" color=" #22cd6f" className={style.FontAwesomeIcon}/></a>
-                    <a href=""><FontAwesomeIcon icon={faFacebookSquare} size="2x" color=" #22cd6f"
+                    <a href="https://www.facebook.com/potapov.eo/"><FontAwesomeIcon icon={faFacebookSquare} size="2x" color=" #22cd6f"
                                      className={style.FontAwesomeIcon}/></a>
-                    <a href=""><FontAwesomeIcon icon={faLinkedinIn} size="2x" color=" #22cd6f" className={style.FontAwesomeIcon}/></a>
+                    <a href="https://www.linkedin.com/in/evgeny-potapov-23a591209/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" color=" #22cd6f" className={style.FontAwesomeIcon}/></a>
 
                 </div>
 

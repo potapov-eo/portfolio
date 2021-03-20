@@ -22,8 +22,8 @@ function Works() {
                     <div className={style.works}>
                         <Work href={"https://potapov-eo.github.io/friday-day/"} style={cardQuestion}
                               title={"Cards Questions"}
-                              description={"ssssssssss dddddddddd ddddddddddd"}/>
-                        <Work style={toDo} title={"ToDo"} description={"ssssssssss dddddddddd ddddddddddd"}/>
+                              description={"\"Technologies:React, Redux, REST API, Typescript, Formik, Material-UI, Storybook, Unit-tests"}/>
+                        <Work style={toDo} title={"ToDo"} description={"Technologies:React, Redux, REST API, Typescript, Formik, Material-UI, Storybook, Unit-tests"}/>
                     </div>
                 </div>
             </Fade>
