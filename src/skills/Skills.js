@@ -16,7 +16,7 @@ function Skills() {
                     <Title title={"Skills"}/>
                     <div className={style.skills}>
                         <Tilt className="Tilt" options={{max: 35,}}>
-                            <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS"}
+                            <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS,TS"}
                                    description={"ssssssssss dddddddddd ddddddddddddddd"}/>
                         </Tilt>
                         <Tilt className="Tilt" options={{max: 35,}}>
