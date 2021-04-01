@@ -22,6 +22,15 @@
     margin-top: 0;
     display: block;
     margin-block-end: 20px;
+
+    a {
+      @extend TitleItem;
+
+      &:hover {
+        cursor: pointer;
+        color: $textColor
+      }
+    }
      }
 
   .imgContainer {

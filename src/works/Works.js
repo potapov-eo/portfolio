@@ -20,10 +20,16 @@ function Works() {
                 <div className={style.worksContainer}>
                     <Title title={"Projects"}/>
                     <div className={style.works}>
-                        <Work href={"https://potapov-eo.github.io/friday-day/"} style={cardQuestion}
+                        <Work  href={"https://potapov-eo.github.io/friday-day/"} style={cardQuestion}
                               title={"Cards Questions"}
-                              description={"\"Technologies:React, Redux, REST API, Typescript, Formik, Material-UI, Storybook, Unit-tests"}/>
-                        <Work style={toDo} title={"ToDo"} description={"Technologies:React, Redux, REST API, Typescript, Formik, Material-UI, Storybook, Unit-tests"}/>
+                              description={"\"Technologies:React, Redux, REST API, Typescript, Formik, Material-UI, Unit-tests"}
+                              gitRepo="https://github.com/potapov-eo/friday-day"/>
+
+                        <Work  style={toDo}
+                              title={"ToDo"}
+                              description={"Technologies:React, Redux, REST API, Typescript, Material-UI," +
+                              " Storybook, Unit-tests, IN PROGRESS"}
+                              gitRepo=""/>
                     </div>
                 </div>
             </Fade>

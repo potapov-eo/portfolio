@@ -8,11 +8,11 @@ function Work(props) {
     return (
         <div className={style.work}>
             <div className={style.imgContainer} style={props.style}>
-            <Button href={props.href} className={style.button} text={"смотреть"}/>
+            <Button href={props.href} className={style.button} text={"Click Me"}/>
             </div>
             <TitleItem title={props.title}/>
             <p>{props.description}</p>
-
+            <p> <a  href={props.gitRepo}>Git repository</a></p>
         </div>
     );
 }

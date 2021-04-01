@@ -16,16 +16,13 @@ function Skills() {
                     <Title title={"Skills"}/>
                     <div className={style.skills}>
                         <Tilt className="Tilt" options={{max: 35,}}>
-                            <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS,TS"}
-                                   description={"ssssssssss dddddddddd ddddddddddddddd"}/>
+                            <Skill icon={<FontAwesomeIcon icon={faJs} size="5x" color=" #22cd6f"/>} title={"JS, TS"}/>
                         </Tilt>
                         <Tilt className="Tilt" options={{max: 35,}}>
-                            <Skill icon={<FontAwesomeIcon icon={faReact} size="5x" color=" #22cd6f"/>} title={"REACT"}
-                                   description={"ssssssssss dddddddddd ddddddddddd"}/>
+                            <Skill icon={<FontAwesomeIcon icon={faReact} size="5x" color=" #22cd6f"/>} title={"React, Redux"}/>
                         </Tilt>
                         <Tilt className="Tilt" options={{max: 35,}}>
-                            <Skill icon={<FontAwesomeIcon icon={faHtml5} size="5x" color=" #22cd6f"/>} title={"HTML"}
-                                   description={"ssssssssss dddddddddd ddddddddddd"}/>
+                            <Skill icon={<FontAwesomeIcon icon={faHtml5} size="5x" color=" #22cd6f"/>} title={"HTML"}/>
                         </Tilt>
                         <Tilt className="Tilt" options={{max: 35,}}>
                             <Skill icon={<FontAwesomeIcon icon={faFileCode} size="5x" color=" #22cd6f"/>} title={"CSS"}

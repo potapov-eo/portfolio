@@ -9,10 +9,10 @@ import Tilt from 'react-tilt'
 const particlesOptions = {
     "particles": {
         "number": {
-            "value": 150,
+            "value": 100,
             "density": {
                 "enable": true,
-                "value_area": 1000
+                "value_area": 1300
             }
         }
     }
@@ -22,7 +22,7 @@ const particlesOptions = {
 function Main() {
     return (
         <div id="main" className={style.mainBlock}>
-          {/*  <Particles className={style.particles} params={particlesOptions}/>*/}
+            <Particles className={style.particles} params={particlesOptions}/>
             <Fade left>
                 <div className={style.mainContainer}>
                     <div className={style.text}>

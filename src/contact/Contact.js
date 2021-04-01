@@ -17,7 +17,7 @@ function Contact() {
                     <input type={"text"} className={style.formArea} placeholder="e-mail"/>
 
                     <textarea className={style.messageArea} placeholder="send message"/>
-                    <button type={"submit"} className={style.showBut}>Отправить</button>
+                    <button type={"submit"} className={style.showBut}>SEND</button>
                 </form>
 
 
