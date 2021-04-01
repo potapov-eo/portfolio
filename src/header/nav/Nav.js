@@ -28,14 +28,14 @@ function Nav() {
                 spy={true}
                 smooth={true}
                 offset={-65}
-                duration={500}
+                duration={600}
             >Projects</Link>
             <Link
                 activeClass={style.active}
                 to="contacts"
                 spy={true}
                 smooth={true}
-                offset={-250}
+                offset={-280}
                 duration={500}
             >Contacts</Link>
 
